@@ -43,7 +43,7 @@ body{
 }
 
 /*NAVBAR*/
-.nav{
+.navb{
     background-color: #333;
     width: 100%;
     position: fixed;
@@ -51,7 +51,7 @@ body{
     z-index: 999;
 }
 
-.nav a{
+.navb a{
     display: inline-block;
     color: #fff;
     border: 3px solid transparent;
@@ -67,7 +67,7 @@ body{
     transition: 0.3s;
 }
 
-.nav a:hover{
+.navb a:hover{
      -webkit-animation: change infinite 1s;
 }
 
@@ -77,12 +77,77 @@ body{
     background-color: #fff;
 }
 
-iframe{
+.history iframe{
     height: 40vw;
-    width: 70vw;
+    width: 70.5vw;
     margin-left: 15vw;
     margin-top: 12vw;
     margin-bottom: 5vw;
+}
+
+.history h2{
+    font-family: 'Rowdies', cursive;
+    font-size: 7vw;
+    color: #000;
+    text-align: center;
+}
+
+.history h1{
+    font-family: 'Piedra', cursive;
+    font-size: 10vw;
+    color: #000;
+    text-align: center;
+    padding-top: 1.5vw;
+    padding-bottom: 5vw;
+    letter-spacing: 0.5vw;
+}
+
+.music{
+    width: 100%;
+    background-color: #bababa;
+}
+
+.music .img1{
+    background-image: url(images/first2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 33vw;
+    width: 48vw;
+    margin-left: 0;
+    opacity: 0.6;
+}
+
+.music .img{
+    background-color: #000;
+}
+
+.music .img .img2{
+    background-image: url(images/harry.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 33vw;
+    width: 53vw;
+    opacity: 0.6;
+    z-index: -1;
+    cursor: pointer;
+}
+
+
+.music h3{
+     color: #ffe854;
+    font-size: 10vw;
+    padding-top: 20vw;
+    padding-left: 13vw;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.music .img .img2:hover > h3{
+    opacity: 1;
+}
+
+.band {
+    width: 100%;
 }
 
 /*ANIMATIONS*/
