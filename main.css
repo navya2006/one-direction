@@ -13,7 +13,7 @@ body{
     overflow-x: hidden;
 }
 
-/*HOME*/
+/*MUSIC*/
 .home{
     width: 100%;
     height: 57.5vw;
@@ -61,7 +61,7 @@ body{
     padding: 1.8vw 7.5vw; 
     border-left: 1.5px solid #666;
     border-right: 1.5px solid #666;
-    margin-left: 0.38vw;
+    margin-left: 0.3vw;
     text-decoration: none;
     position: relative;
     transition: 0.3s;
@@ -146,76 +146,26 @@ body{
     opacity: 1;
 }
 
-
-.band {
-    background-color: #cbeff5;
+/*BAND*/
+.band{
     width: 100%;
-    padding: 2vw;
-    padding-bottom: 2vw;
-    padding-top: 5vw;
+    background-color: #222;
 }
 
-.band .border1{
-    border: #000 solid 3px;
-    padding: 3vw;
+.band .bg{
+    background-image: url(images/oned.jpg);
+    height: 46vw;
+    width: 48vw;
+    background-size: cover;
+    transition: 0.4s;
 }
 
-.band .border .container{
-    border: #000 solid 7px;
-    width: 100%;
-    padding: 0;
-}
-
-.band img{
-    height: 85%;
-    width: 100%;
-}
-
-.carousel-control-prev{
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 10%;
-}
-
-.carousel-control-next{
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 10%;
-}
-
-.band .ct .text {
-  position: absolute;
-  top: 27vw;
-  left: 19vw;
-  text-align: center;
-  color: #000;
-  font-size: 3vw;
-  font-family: 'Bebas Neue', cursive;
-}
-
-.band .ct .text2{
-  position: absolute;
-  top: 27vw;
-  left: 26vw;
-  text-align: center;
-  color: #fff;
-  font-size: 3vw;
-  font-family: 'Bebas Neue', cursive;
-}
-
-.band  h1{
-    background-color: #333;
-    color: #fff;
-    font-size: 3vw;
-    text-align: center;
-    margin-top: 2vw;
-    padding: 1vw;
-    width: 30%;
-    margin-left: 31vw;
-    cursor: pointer;
-}
-
-.band h1:hover{
-    background-color: #777;
-    color: #000;
+.band .bg:hover{
+    background-image: url(images/oned5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 46vw;
+    width: 48vw;
 }
 
 .tour{
