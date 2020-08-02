@@ -16,7 +16,7 @@ body{
 /*MUSIC*/
 .home{
     width: 100%;
-    height: 57.5vw;
+    height: 100%;
     background-color: rgba(0,0,0,0.6);
 }
 
@@ -28,7 +28,7 @@ body{
     background-size: cover;
     background-position: center;
     content: "";
-    height: 57.5vw;
+    height: 100%;
     width: 100%;
     z-index: -1;
 }
