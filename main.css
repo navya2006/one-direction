@@ -173,6 +173,8 @@ body{
     margin-left: 55vw;
     border: 2px solid #fff;
     border-radius: 50%;
+    height: 37vw;
+    width: 37vw; 
 }
 
 .tour{
