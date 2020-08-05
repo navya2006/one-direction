@@ -149,10 +149,10 @@ body{
 /*BAND*/
 .band{
     width: 100%;
-    background-color: #222;
+    background-color: #333;
 }
 
-.band .bg{
+.bg{
     background-image: url(images/oned.jpg);
     height: 46vw;
     width: 48vw;
@@ -160,12 +160,19 @@ body{
     transition: 0.4s;
 }
 
-.band .bg:hover{
+.bg:hover{
     background-image: url(images/oned5.jpg);
     background-size: cover;
     background-position: center;
     height: 46vw;
     width: 48vw;
+}
+
+.wheel iframe{
+    margin-top: -40vw;
+    margin-left: 55vw;
+    border: 2px solid #fff;
+    border-radius: 50%;
 }
 
 .tour{
