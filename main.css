@@ -180,7 +180,7 @@ body{
 
 .tour{
     width: 100%;
-    height: 115%;
+    height: 65vw;
     background-color: rgba(0,0,0,0.7);
 }
 
@@ -192,7 +192,7 @@ body{
     background-size: cover;
     background-position: center;
     content: "";
-    height: 115%;
+    height: 65vw;
     width: 100%;
     z-index: -1;
 }
@@ -233,6 +233,18 @@ body{
     margin-left: 40vw;
     margin-right: 40vw;
     font-family: 'Antic Slab', serif;
+    cursor: pointer;
+}
+
+.tour .bod .view:hover{
+    background-color: #666;
+    color: #fff;
+}
+
+/*POSTERS*/
+.posters{
+    width: 100%;
+    background-color: #fff;
 }
 
 /*ANIMATIONS*/
