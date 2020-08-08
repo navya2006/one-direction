@@ -180,8 +180,8 @@ body{
 
 .tour{
     width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.75);
+    height: 115%;
+    background-color: rgba(0,0,0,0.7);
 }
 
 .tour::before{
@@ -192,9 +192,47 @@ body{
     background-size: cover;
     background-position: center;
     content: "";
-    height: 100%;
+    height: 115%;
     width: 100%;
     z-index: -1;
+}
+
+.space {
+    padding: 3vw;
+    padding-top: 5vw;
+}
+
+.tour .space .bod{
+    border: 3px solid #fff;
+    padding-bottom: 2vw;
+}
+
+.tour .space .bod h1{
+    font-size: 10vw;
+    color: #fff;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tour .bod .info{
+    color: #fff;
+    font-size: 2vw;
+    padding-left: 8vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    font-family: 'Antic Slab', serif;
+}
+
+.tour .bod .view{
+    color: #222;
+    background-color: #888;
+    text-align: center;
+    padding: 1vw;
+    font-size: 2vw;
+    margin-top: 1.5vw;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    font-family: 'Antic Slab', serif;
 }
 
 /*ANIMATIONS*/
