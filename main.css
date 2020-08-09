@@ -23,7 +23,7 @@ body{
 .home::before{
     position: absolute;
     background-attachment: fixed;
-    background-image: url("images/bg3.webp");
+    background-image: url("images/bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -234,6 +234,7 @@ body{
     margin-right: 40vw;
     font-family: 'Antic Slab', serif;
     cursor: pointer;
+    transition: 0.4s;
 }
 
 .tour .bod .view:hover{
