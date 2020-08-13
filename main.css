@@ -48,7 +48,7 @@ body{
     width: 100%;
     position: fixed;
     position: absolute;
-    z-index: 999;
+    z-index: 1;
 }
 
 .navb a{
@@ -71,7 +71,36 @@ body{
      -webkit-animation: change infinite 1s;
 }
 
-/*ABOUT*/
+/*Faltu nav*/
+.nbar{
+    background-color: #000;
+    padding: 7px 0px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    position: fixed;
+    z-index: 9;
+}
+
+.nbar a{
+    float: right;
+    display: block;
+    color: #fff;
+    border: 3px solid transparent;
+    font-size: 1.4vw;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.5;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-right: 0.5vw;;
+    position: relative;
+}
+
+.disappear{
+    top: -200;
+}
+
+/*HISTORY*/
 .history{
     width: 100%;
     background-color: #fff;
@@ -111,7 +140,7 @@ body{
     background-image: url(images/first2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 33vw;
+    height: 38vw;
     width: 48vw;
     margin-left: 0;
     opacity: 0.4;
@@ -125,7 +154,7 @@ body{
     background-image: url(images/harry.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 33vw;
+    height: 38vw;
     width: 53vw;
     opacity: 0.7;
     z-index: -1;
@@ -263,6 +292,10 @@ body{
 
 .posters img:hover{
     filter: grayscale(0%);
+}
+
+.merch{
+    width: 100%;
 }
 
 /*ANIMATIONS*/

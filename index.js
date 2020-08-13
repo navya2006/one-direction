@@ -11,12 +11,12 @@
    } 
 
 
-jQuery(document).on("scroll", function () {
-    if ($(document).scrollTop() > 120) {
-        $(".navb").css("background-color","#090b0d");
-        $(".disappear").css("top","0");
+   jQuery(document).on("scroll", function () { 
+    if ($(document).scrollTop() > 900) { 
+        $(".nbar").css("background-color","#090b0d");
+        $(".disappear").css("top","0"); 
     } else {
-        $(".navb").css("background","none");
-        $(".disappear").css("top","-200");
+        $(".nbar").css("background","none");
+        $(".disappear").css("top","-200"); 
     }
 });   
