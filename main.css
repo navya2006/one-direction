@@ -16,7 +16,7 @@ body{
 /*MUSIC*/
 .home{
     width: 100%;
-    height: 100%;
+    height: 47.5vw;
     background-color: rgba(0,0,0,0.3);
 }
 
@@ -28,7 +28,7 @@ body{
     background-size: cover;
     background-position: top;
     content: "";
-    height: 100%;
+    height: 47.5vw;
     width: 100%;
     z-index: -1;
 }
@@ -44,11 +44,10 @@ body{
 
 /*NAVBAR*/
 .navb{
-    background-color: #333;
+    background-color: #222;
     width: 100%;
-    position: fixed;
-    position: absolute;
     z-index: 1;
+    break-inside: avoid;
 }
 
 .navb a{
@@ -58,26 +57,29 @@ body{
     font-size: 2vw;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.3;
-    padding: 1.8vw 7.5vw; 
-    border-left: 1.5px solid #666;
-    border-right: 1.5px solid #666;
-    margin-left: 0.3vw;
+    padding: 25px 7.7vw; 
     text-decoration: none;
     position: relative;
     transition: 0.3s;
+    overflow: hidden;
+    break-inside: avoid;
 }
 
 .navb a:hover{
      -webkit-animation: change infinite 1s;
 }
 
-/*Faltu nav*/
+/*disappearing nav*/
 .nbar{
-    background-color: #000;
+    float: right;
+    background-color: rgba(0,0,0,0.5);
     padding: 7px 0px;
     width: 100%;
-    position: absolute;
     top: 0;
+    position: absolute;
+    overflow-x: hidden;
+    transition: 0.7s;
+    text-align: center;
     position: fixed;
     z-index: 9;
 }
@@ -90,10 +92,16 @@ body{
     font-size: 1.4vw;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.5;
-    padding: 10px 15px;
+    padding: 0.5vw 1.3vw;
     text-decoration: none;
     margin-right: 0.5vw;;
     position: relative;
+    opacity: 0.75;
+    transition: 0.5s;
+}
+
+.nbar a:hover{
+    opacity: 1;
 }
 
 .disappear{
@@ -104,14 +112,6 @@ body{
 .history{
     width: 100%;
     background-color: #fff;
-}
-
-.history iframe{
-    height: 40vw;
-    width: 70.5vw;
-    margin-left: 15vw;
-    margin-top: 12vw;
-    margin-bottom: 5vw;
 }
 
 .history h2{
@@ -186,12 +186,12 @@ body{
     height: 46vw;
     width: 48vw;
     background-size: cover;
-    transition: 0.4s;
 }
 
 .bg:hover{
-    background-image: url(images/oned5.jpg);
+    background-image: url(images/oned7.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     height: 46vw;
     width: 48vw;

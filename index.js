@@ -12,7 +12,7 @@
 
 
    jQuery(document).on("scroll", function () { 
-    if ($(document).scrollTop() > 900) { 
+    if ($(document).scrollTop() > 800) { 
         $(".nbar").css("background-color","#090b0d");
         $(".disappear").css("top","0"); 
     } else {
